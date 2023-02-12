@@ -32,19 +32,13 @@
 				<a href="./int4wd-driver-standings.html" class="w3-bar-item w3-button ">International 4WD (R5)</a>
 				<a href="./int2wd-driver-standings.html" class="w3-bar-item w3-button ">International 2WD (R2)</a>
 				<a href="./nat4wd-driver-standings.html" class="w3-bar-item w3-button active">National 4WD (Group A)</a>
-				<a href="./nat2wd-driver-standings.html" class="w3-bar-item w3-button ">National 4WD (H3)</a>
+				<a href="./nat2wd-driver-standings.html" class="w3-bar-item w3-button ">National 2WD (H3)</a>
 				<a href="./overall-driver-standings.html" class="w3-bar-item w3-button ">Total</a>
 			</div>
 		</div>
 
 
 
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/swe.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 
         <!-- mobile stuff -->
         <a href="javascript:void(0)" class="logo w3-left w3-hide-large" style="font-size:3em;" onclick="openSeriesMobileNav()">
@@ -56,7 +50,7 @@
 
         <h3 class="w3-hide-large navTitle bold" style="display:block;">
             driver - National 4WD (Group A)
-            <br><span id="countdown"></span>
+            
         </h3>
 
 	</div>
@@ -65,7 +59,7 @@
             <a href="./int4wd-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - International 4WD (R5)</a>
             <a href="./int2wd-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - International 2WD (R2)</a>
             <a href="./nat4wd-driver-standings.html" class="w3-bar-item w3-button active">Poängställning - National 4WD (Group A)</a>
-            <a href="./nat2wd-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - National 4WD (H3)</a>
+            <a href="./nat2wd-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - National 2WD (H3)</a>
             <a href="./overall-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - Total</a>
 	</div>
 
@@ -76,44 +70,8 @@
 			<a href="./nat4wd-0-driver-results.html">
 				<img src="./assets/country-flags/swe.png" />
 			</a>
-			<a href="./nat4wd-1-driver-results.html">
-				<img src="./assets/country-flags/swe.png" />
-			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2023-02-12T23:00:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
     <div id="container">
         <div id="flexContainer">
@@ -140,12 +98,6 @@
                                 </a>
                             </th>
 
-                            <th>
-                                <a href="./nat4wd-1-driver-results.html">
-                                    <img src="./assets/country-flags/swe.png" alt="swe" title="swe"/>
-                                </a>
-                            </th>
-
                             <th>Poäng</th>
                         </tr>
                     </thead>
@@ -164,14 +116,10 @@
                                     </td>
                             
                             <td>
-                                54
+                                53
                             </td>
                             
-                            <td>
-                                
-                            </td>
-                            
-                            <td class="bold">54</td>
+                            <td class="bold">53</td>
                         </tr>
                         <tr style="background-color: ">
                             <td>2</td>
@@ -187,17 +135,13 @@
                                     </td>
                             
                             <td>
-                                49
+                                46
                             </td>
                             
-                            <td>
-                                
-                            </td>
-                            
-                            <td class="bold">49</td>
+                            <td class="bold">46</td>
                         </tr>
                         <tr style="background-color: ">
-                            <td>3</td>
+                            <td>2</td>
                             <td>
                                 <span class="neutral">=</span>
                             </td>
@@ -210,14 +154,10 @@
                                     </td>
                             
                             <td>
-                                44
+                                46
                             </td>
                             
-                            <td>
-                                
-                            </td>
-                            
-                            <td class="bold">44</td>
+                            <td class="bold">46</td>
                         </tr>
                         <tr style="background-color: ">
                             <td>4</td>
@@ -233,14 +173,10 @@
                                     </td>
                             
                             <td>
-                                40
+                                42
                             </td>
                             
-                            <td>
-                                
-                            </td>
-                            
-                            <td class="bold">40</td>
+                            <td class="bold">42</td>
                         </tr>
                         <tr style="background-color: ">
                             <td>5</td>
@@ -259,14 +195,29 @@
                                 36
                             </td>
                             
-                            <td>
-                                
-                            </td>
-                            
                             <td class="bold">36</td>
                         </tr>
                         <tr style="background-color: ">
                             <td>6</td>
+                            <td>
+                                <span class="neutral">=</span>
+                            </td>
+                            <td>
+                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                            </td>
+                            <td class="text-left bold">Daniel Hellstrom</td>
+                                    <td>
+                                        <img src="./assets/cars/mitsubishi.png" style="max-width:2em; max-height:2em;" alt="mitsubishi" title="mitsubishi"/>
+                                    </td>
+                            
+                            <td>
+                                32
+                            </td>
+                            
+                            <td class="bold">32</td>
+                        </tr>
+                        <tr style="background-color: ">
+                            <td>7</td>
                             <td>
                                 <span class="neutral">=</span>
                             </td>
@@ -282,17 +233,13 @@
                                 DNF
                             </td>
                             
-                            <td>
-                                
-                            </td>
-                            
                             <td class="bold">0</td>
                         </tr>
                     </tbody>
 
                 </table>
                 <div style="margin:0 auto; text-align:center;">
-                    <p>Senast uppdaterad vid: 2023-02-12 03:00:23</p>
+                    <p>Senast uppdaterad vid: 2023-02-13 00:04:11</p>
                 </div>
             </div>
         </div>
